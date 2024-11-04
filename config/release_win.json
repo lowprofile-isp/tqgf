@@ -1,0 +1,10 @@
+{
+	"win": {
+		"appVersion": "1.0.1",
+		"versionCode": "101",
+		"versionTitle": "发现新版本",
+		"versionDesc": "bug修复",
+		"downloadUrl": "",
+		"isForceUpdate": true
+	}
+}

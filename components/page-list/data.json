@@ -1,0 +1,288 @@
+{
+	"columns": {
+		"production": [
+			{
+				"title": "工序",
+				"width": 80
+			},
+			{
+				"title": "产品"
+			},
+			{
+				"title": "生产单号"
+			},
+			{
+				"title": "批次/序列号"
+			},
+			{
+				"title": "作业员工",
+				"width": 80
+			},
+			{
+				"title": "开工时间"
+			},
+			{
+				"title": "实际时长",
+				"width": 80
+			},
+			{
+				"title": "状态",
+				"width": 90
+			},
+			{
+				"title": "质检结果",
+				"width": 80
+			}
+		],
+		"repair": [
+			{
+				"title": "产品"
+			},
+			{
+				"title": "批次/序列号"
+			},
+			{
+				"title": "产品规格"
+			},
+			{
+				"title": "返修原因/说明"
+			},
+			{
+				"title": "返修备注",
+				"width": 80
+			},
+			{
+				"title": "返修状态",
+				"width": 80
+			},
+			{
+				"title": "质检结果",
+				"width": 80
+			}
+		],
+		"quality_check": [
+			{
+				"title": "产品"
+			},
+			{
+				"title": "产品分类"
+			},
+			{
+				"title": "批次/序列号",
+				"width": 230
+			},
+			{
+				"title": "数量",
+				"width": 70
+			},
+			{
+				"title": "产品规格"
+			},
+			{
+				"title": "返修备注",
+				"width": 80
+			},
+			{
+				"title": "工艺备注"
+			},
+			{
+				"title": "返修状态",
+				"width": 80
+			},
+			{
+				"title": "质检结果",
+				"width": 90
+			}
+		],
+		"quality_check_mould": [
+			{
+				"title": "巡检单号"
+			},
+			{
+				"title": "巡检日期"
+			},
+			{
+				"title": "巡检数量",
+				"width": 80
+			},
+			{
+				"title": "巡检人"
+			}
+		],
+		"quality_check_enter": [
+			{
+				"title": "单号"
+			},
+			{
+				"title": "接收批次"
+			},
+			{
+				"title": "产品"
+			},
+			{
+				"title": "规格"
+			},
+			{
+				"title": "送检日期"
+			},
+			{
+				"title": "状态",
+				"width": 90
+			}
+		],
+		"quality_check_process": [
+			{
+				"title": "巡检单"
+			},
+			{
+				"title": "工序"
+			},
+			{
+				"title": "检验员"
+			},
+			{
+				"title": "检验日期"
+			},
+			{
+				"title": "状态",
+				"width": 90
+			}
+		],
+		"quality_check_record": [
+			{
+				"title": "产品"
+			},
+			{
+				"title": "批次/序列号"
+			},
+			{
+				"title": "生产订单"
+			},
+			{
+				"title": "检验项"
+			},
+			{
+				"title": "检验值",
+				"width": 80
+			},
+			{
+				"title": "检验人",
+				"width": 80
+			},
+			{
+				"title": "检验日期"
+			},
+			{
+				"title": "状态",
+				"width": 80
+			}
+		],
+		"reportedwork_record": [
+			{
+				"title": "批次/序列号"
+			},
+			{
+				"title": "开始时间"
+			},
+			{
+				"title": "结束时间"
+			},
+			{
+				"title": "工作中心"
+			},
+			{
+				"title": "损失原因"
+			},
+			{
+				"title": "用户"
+			},
+			{
+				"title": "时长（分钟）"
+			}
+		],
+		"safe-epa": [
+			{
+				"title": "巡检编号号"
+			},
+			{
+				"title": "巡检任务"
+			},
+			{
+				"title": "巡检人"
+			},
+			{
+				"title": "巡检时间"
+			}
+		],
+		"task-scan": [
+			{
+				"title": "工单状态"
+			},
+			{
+				"title": "产品"
+			},
+			{
+				"title": "批次/序列号"
+			}
+		],
+		"error-push": [
+			{
+				"title": "任务编号"
+			},
+			{
+				"title": "名称"
+			},
+			{
+				"title": "部门"
+			}
+		],
+		"procurementStock": [
+			{
+				"title": "单号"
+			},
+			{
+				"title": "采购单号"
+			},
+			{
+				"title": "客户"
+			},
+			{
+				"title": "采购日期"
+			}
+		],
+		"getMaterials": [
+			{
+				"title": "制造单号"
+			},
+			{
+				"title": "产品"
+			},
+			{
+				"title": "批次/序列号"
+			},
+			{
+				"title": "计划开始时间"
+			},
+			{
+				"title": "计划结束时间"
+			},
+			{
+				"title": "物料是否齐套"
+			}
+		],
+		"dataReport": [
+			{
+				"title": "工单号"
+			},
+			{
+				"title": "工序"
+			},
+			{
+				"title": "产品"
+			},
+			{
+				"title": "批次/序列号"
+			}
+		]
+	}
+}

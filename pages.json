@@ -1,0 +1,647 @@
+{
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [
+		// 主页
+		{
+			"path": "pages/tqgf/application/index",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/tqgf/user_info/index",
+			"style": {
+				// "navigationStyle": "custom"
+				"enablePullDownRefresh": false,
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/tqgf/workcenter/index",
+			"style": {
+				// "navigationStyle": "custom"
+				"enablePullDownRefresh": false,
+				"navigationBarTitleText": "工作中心"
+			}
+		},
+		{
+			"path": "pages/tqgf/message_notification/index",
+			"style": {
+				// "navigationStyle": "custom",
+				"enablePullDownRefresh": true,
+				"navigationBarTitleText": "消息通知"
+			}
+		},
+		{
+			"path": "pages/tqgf/message_notification/detail",
+			"style": {
+				"navigationBarTitleText": "通知详情",
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": false
+			}
+		},
+		//升级窗口页面-uni-upgrade-center-app
+		{
+			"path": "uni_modules/uni-upgrade-center-app/pages/upgrade-popup",
+			"style": {
+				"disableScroll": true,
+				"app-plus": {
+					"backgroundColorTop": "transparent",
+					"background": "transparent",
+					"titleNView": false,
+					"scrollIndicator": false,
+					"popGesture": "none",
+					"animationType": "fade-in",
+					"animationDuration": 200
+
+				}
+			}
+		},
+		{
+			"path": "pages/public/upgrade-win",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"bounce": "none",
+					"animationType": "none",
+					"background": "transparent"
+				}
+			}
+		},
+		//升级窗口页面-自定义
+		{
+			"path": "pages/public/upgrade",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"bounce": "none",
+					"animationType": "none",
+					"background": "transparent"
+				}
+			}
+		},
+		{
+			"path": "pages/tqgf/application/production/index",
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true,
+				"navigationBarTitleText": "生产报工"
+			}
+		},
+		{
+			"path": "pages/tqgf/application/inventory/index",
+			"style": {
+				"enablePullDownRefresh": false,
+				"navigationBarTitleText": "仓储物流"
+			}
+		},
+		{
+			"path": "pages/tqgf/application/equipmentOperationScan/index",
+			"style": {
+				"navigationBarTitleText": "设备报工",
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/tqgf/application/materialManagementScan/index",
+			"style": {
+				"navigationBarTitleText": "物料周转",
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/tqgf/application/errorPush/index",
+			"style": {
+				"navigationBarTitleText": "异常上报",
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/tqgf/application/errorPush/detail",
+			"style": {
+				"navigationBarTitleText": "异常上报",
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/tqgf/application/errorAccept/index",
+			"style": {
+				"navigationBarTitleText": "异常处理",
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/tqgf/application/errorAccept/detail",
+			"style": {
+				"navigationBarTitleText": "异常处理",
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/tqgf/application/safeEpa/index",
+			"style": {
+				"navigationBarTitleText": "安环巡检",
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/tqgf/application/safeEpa/detail",
+			"style": {
+				"navigationBarTitleText": "任务详情",
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/tqgf/application/taskScan/index",
+			"style": {
+				"navigationBarTitleText": "任务待办",
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/tqgf/application/productSearchScan/index",
+			"style": {
+				"navigationBarTitleText": "信息查询",
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/tqgf/application/takeStockScan/index",
+			"style": {
+				"navigationBarTitleText": "库房盘点",
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/tqgf/application/finishedEnterProductScan/index",
+			"style": {
+				"navigationBarTitleText": "产品入库",
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/tqgf/application/finishedOutProductScan/index",
+			"style": {
+				"navigationBarTitleText": "产品出库",
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/tqgf/application/procurementStock/index",
+			"style": {
+				"navigationBarTitleText": "采购入库",
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/tqgf/application/procurementStock/detail",
+			"style": {
+				"navigationBarTitleText": "采购入库",
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"softinputMode": "adjustResize"
+				}
+			}
+		},
+		{
+			"path": "pages/tqgf/application/getMaterials/index",
+			"style": {
+				"navigationBarTitleText": "生产领料",
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/tqgf/application/getMaterials/detail",
+			"style": {
+				"navigationBarTitleText": "生产领料",
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/tqgf/application/getMaterials/scene_detail",
+			"style": {
+				"navigationBarTitleText": "现场用料",
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/tqgf/application/dataReport/index",
+			"style": {
+				"navigationBarTitleText": "生产记录",
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/tqgf/application/dataReport/params_list",
+			"style": {
+				"navigationBarTitleText": "上报记录",
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/tqgf/application/dataReport/detail",
+			"style": {
+				"navigationBarTitleText": "上报详情",
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"softinputMode": "adjustResize"
+				}
+			}
+		},
+		{
+			"path": "pages/tqgf/application/feiliaoPage/index",
+			"style": {
+				"navigationBarTitleText": "生产废料入库",
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"softinputMode": "adjustResize"
+				}
+			}
+		},
+		{
+			"path": "pages/tqgf/application/feiliaoPage/use",
+			"style": {
+				"navigationBarTitleText": "生产废料使用",
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": true,
+				"app-plus": {
+					"softinputMode": "adjustResize"
+				}
+			}
+		},
+		{
+			"path": "pages/tqgf/application/equipment_management/index",
+			"style": {
+				"enablePullDownRefresh": false,
+				"navigationBarTitleText": "设备管理"
+			}
+		},
+		{
+			"path": "pages/tqgf/application/approver/index",
+			"style": {
+				"navigationBarTitleText": "审批",
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/tqgf/application/approver/detail",
+			"style": {
+				"navigationBarTitleText": "审批详情",
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/tqgf/application/quality_check/mrp_production",
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true,
+				"navigationBarTitleText": "质量检验"
+			}
+		},
+		{
+			"path": "pages/tqgf/application/quality_check/product_inspection",
+			"style": {
+				"enablePullDownRefresh": true,
+				"app-plus": {
+					"softinputMode": "adjustResize",
+					"titleNView": {
+						"buttons": [{
+							"fontSrc": "/static/iconfont/iconfont.ttf",
+							"text": "\uec08",
+							"fontSize": "22",
+							"color": "#ffffff",
+							"width": "42px",
+							"float": "right"
+						}]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/tqgf/application/quality_check/product_inspection_piliang",
+			"style": {
+				"navigationBarTitleText": "审批详情",
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/tqgf/application/quality_check/product_inspection_piliang_mould",
+			"style": {
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"softinputMode": "adjustResize",
+					"titleNView": {
+						"buttons": [{
+							"fontSrc": "/static/iconfont/iconfont.ttf",
+							"text": "\uec08",
+							"fontSize": "22",
+							"color": "#ffffff",
+							"width": "42px",
+							"float": "right"
+						}]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/tqgf/application/quality_check/product_inspection_piliang_guocheng",
+			"style": {
+				"enablePullDownRefresh": false
+				// "app-plus": {
+				// 	"softinputMode": "adjustResize",
+				// 	"titleNView": {
+				// 		"buttons": [{
+				// 			"fontSrc": "/static/iconfont/iconfont.ttf",
+				// 			"text": "\uec08",
+				// 			"fontSize": "22",
+				// 			"color": "#ffffff",
+				// 			"width": "42px",
+				// 			"float": "right"
+				// 		}]
+				// 	}
+				// }
+			}
+		},
+		{
+			"path": "pages/tqgf/application/quality_check/product_inspection_course",
+			"style": {
+				"enablePullDownRefresh": true,
+				"app-plus": {
+					"softinputMode": "adjustResize",
+					"titleNView": {
+						"buttons": [{
+							"fontSrc": "/static/iconfont/iconfont.ttf",
+							"text": "\uec08",
+							"fontSize": "22",
+							"color": "#ffffff",
+							"width": "42px",
+							"float": "right"
+						}]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/tqgf/application/quality_check/product_inspection_enter",
+			"style": {
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"softinputMode": "adjustResize",
+					"titleNView": {
+						"buttons": [{
+							"fontSrc": "/static/iconfont/iconfont.ttf",
+							"text": "\uec08",
+							"fontSize": "22",
+							"color": "#ffffff",
+							"width": "42px",
+							"float": "right"
+						}]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/tqgf/application/quality_check/check_record",
+			"style": {
+				"enablePullDownRefresh": true,
+				"navigationBarTitleText": "检验记录"
+			}
+		},
+		{
+			"path": "pages/tqgf/application/production/reportedwork_record",
+			"style": {
+				"enablePullDownRefresh": true,
+				"navigationBarTitleText": "生产记录"
+			}
+		},
+		{
+			"path": "pages/tqgf/application/production/detail",
+			"style": {
+				"navigationBarTitleText": "工单详情",
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/tqgf/application/production/use_record",
+			"style": {
+				"navigationBarTitleText": "录入记录",
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/tqgf/application/production/repair",
+			"style": {
+				"enablePullDownRefresh": true,
+				"navigationBarTitleText": "返修工单",
+				"navigationStyle": "custom"
+			}
+		}
+		// {
+		// 	"path": "pages/tqgf/application/quality_check/index",
+		// 	"style": {
+		// 		"enablePullDownRefresh": false,
+		// 		"navigationBarTitleText": "质量检验",
+		// 		"app-plus": {
+		// 			"bounce": "none",
+		// 			"titleNView": {
+		// 				"buttons": [{
+		// 					"fontSrc": "/static/iconfont.ttf",
+		// 					"text": "\ue6ea",
+		// 					"fontSize": "28",
+		// 					"color": "#ffffff",
+		// 					"width": "42px",
+		// 					"background": "rgba(0,0,0,0)"
+		// 				}]
+		// 			}
+		// 		}
+		// 	}
+		// },
+		// {
+		// 	"path": "pages/tqgf/application/quality_check/quality_check",
+		// 	"style": {
+		// 		"enablePullDownRefresh": false,
+		// 		"navigationBarTitleText": "质量检验",
+		// 		"app-plus": {
+		// 			"bounce": "none",
+		// 			"titleNView": {
+		// 				"buttons": [{
+		// 					"fontSrc": "/static/iconfont.ttf",
+		// 					"text": "\ue6ea",
+		// 					"fontSize": "28",
+		// 					"color": "#ffffff",
+		// 					"width": "42px",
+		// 					"background": "rgba(0,0,0,0)"
+		// 				}]
+		// 			}
+		// 		}
+		// 	}
+		// },
+		// {
+		// 	"path": "pages/tqgf/application/quality_check/edit_quality_check",
+		// 	"style": {
+		// 		"enablePullDownRefresh": false
+		// 	}
+		// }
+	],
+
+	"subPackages": [
+		// 公共
+		{
+			"root": "pages/public",
+			"pages": [
+				{
+					"path": "authChoose",
+					"style": {
+						"navigationBarTitleText": "菜单",
+						"navigationStyle": "custom",
+						"app-plus": {
+							// "titleNView": false,
+							"animationType": "slide-in-bottom"
+						}
+					}
+				},
+				// 登录
+				{
+					"path": "login",
+					"style": {
+						"navigationBarTitleText": "登录",
+						"navigationStyle": "custom",
+						"app-plus": {
+							// "titleNView": false,
+							"animationType": "slide-in-bottom"
+						}
+					}
+				},
+				// 修改密码
+				{
+					"path": "password",
+					"style": {
+						"navigationBarTitleText": "忘记密码",
+						"navigationStyle": "custom",
+						"app-plus": {
+							"titleNView": false,
+							"animationType": "slide-in-bottom"
+						}
+					}
+				}
+			]
+		}
+
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "天启光峰",
+		"navigationBarBackgroundColor": "#6190e8",
+		"backgroundColor": "#f8f8f8",
+		"pageOrientation": "auto", //横屏配置，全局屏幕旋转设置(仅 APP/微信/QQ小程序)，支持 auto / portrait / landscape
+		"onReachBottomDistance": 50
+	},
+	"tabBar": {
+		"color": "#323232",
+		"selectedColor": "#6190e8",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [
+			{
+				"pagePath": "pages/tqgf/application/production/index",
+				"text": "生产报工",
+				"iconPath": "/static/tabbar/check_record.png",
+				"selectedIconPath": "/static/tabbar/check_record-active.png"
+			},
+			{
+				"pagePath": "pages/tqgf/application/quality_check/mrp_production",
+				"text": "质量检验",
+				"iconPath": "/static/tabbar/zl.png",
+				"selectedIconPath": "/static/tabbar/zl-active.png"
+			},
+			{
+				"pagePath": "pages/tqgf/workcenter/index",
+				"text": "工作中心",
+				"iconPath": "/static/tabbar/application.png",
+				"selectedIconPath": "/static/tabbar/application-active.png"
+			},
+			{
+				"pagePath": "pages/tqgf/message_notification/index",
+				"text": "消息",
+				"iconPath": "/static/tabbar/tz.png",
+				"selectedIconPath": "/static/tabbar/tz-active.png"
+			},
+			{
+				"pagePath": "pages/tqgf/user_info/index",
+				"text": "个人中心",
+				"iconPath": "/static/tabbar/user.png",
+				"selectedIconPath": "/static/tabbar/user-active.png"
+			}
+		]
+	},
+	"condition": { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [{
+			"name": "", //模式名称
+			"path": "", //启动页面，必选
+			"query": "" //启动参数，在页面的onLoad函数里面得到
+		}]
+	}
+}

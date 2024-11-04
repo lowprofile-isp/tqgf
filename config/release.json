@@ -1,0 +1,10 @@
+{
+	"android": {
+		"appVersion": "1.1.6",
+		"versionCode": "1106",
+		"versionTitle": "系统升级",
+		"versionDesc": "质量检验问题修复",
+		"downloadUrl": "http://10.10.14.37:8006/__UNI__72913E0__20241104084655.apk",
+		"isForceUpdate": false
+	}
+}

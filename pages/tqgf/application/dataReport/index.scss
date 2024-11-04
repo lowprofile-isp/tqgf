@@ -1,0 +1,65 @@
+$primary-color: #6190e8;
+.inventory-page,
+.materialInventory-page {
+	/deep/ .shelf-container {
+		.seat-popup {
+			.u-mode-center-box {
+				padding: 0 20rpx 40rpx;
+				min-height: 500rpx;
+				max-height: 1000rpx;
+			}
+			
+			.seat-info-container {
+				min-height: 250rpx;
+			}
+
+			.popup-title {
+				font-size: 40rpx;
+				font-weight: bold;
+				padding: 20rpx;
+				text-align: center;
+			}
+
+			.popup-btns {
+				padding: 30rpx 20rpx 0;
+				width: 100%;
+				display: flex;
+				justify-content: space-between;
+				position: relative;
+				background-color: #fff;
+				z-index: 999;
+
+				.u-btn {
+					flex: 1;
+					margin: 0 20rpx;
+				}
+			}
+
+			.u-field {
+				padding: 10rpx 28rpx;
+
+				.u-field-inner {
+					align-items: flex-start;
+				}
+			}
+
+			.u-label,
+			.u-field__input-wrap {
+				font-size: 34rpx;
+			}
+
+			.uni-scroll-view {
+				&::-webkit-scrollbar {
+					display: block;
+					width: 8rpx !important;
+					height: 8rpx !important;
+				}
+
+				&::-webkit-scrollbar-thumb {
+					background-color: $uni-scroll-color;
+					border-radius: 10rpx;
+				}
+			}
+		}
+	}
+}
